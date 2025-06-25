@@ -5,11 +5,7 @@ A Cookiecutter template for creating an IDA plugin. This template helps you quic
 ## Prerequisites
 
 - Python 3.10+
-- [Cookiecutter](https://cookiecutter.readthedocs.io/)
-- [uv](https://docs.astral.sh/uv/) (recommended) or pip
 - [pipx](https://pipx.pypa.io/)
-
-
 
 ## Quick Start
 
