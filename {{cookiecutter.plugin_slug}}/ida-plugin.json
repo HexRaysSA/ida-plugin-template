@@ -1,0 +1,11 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+        "name":        "{{cookiecutter.plugin_name}}",
+        "entryPoint":  "{{cookiecutter.plugin_package}}.py",
+        "categories":  [ "" ],
+        "idaVersions": ">=9.0",
+        "description": "{{cookiecutter.description}}",
+        "version":     "{{cookiecutter.version}}"
+    }
+}

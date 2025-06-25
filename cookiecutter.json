@@ -1,0 +1,10 @@
+{
+  "plugin_name": "My Plugin",
+  "plugin_package": "{{ cookiecutter.plugin_name.lower().replace(' ', '_') }}",
+  "plugin_slug": "{{ cookiecutter.plugin_name.lower().replace(' ', '-') }}",
+  "plugin_class": "{{ cookiecutter.plugin_name.replace(' ', '') }}",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "description": "A short description of the plugin",
+  "version": "0.0.1"
+}
