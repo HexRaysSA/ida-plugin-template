@@ -15,19 +15,19 @@ A Cookiecutter template for creating an IDA plugin. This template helps you quic
 
 1. **Generate a new plugin from this template:**
    ```bash
-   cookiecutter gh:HexRaysSA/ida-plugin-template 
+   pipx run cookiecutter gh:HexRaysSA/ida-plugin-template 
    ```
 
    If you want to create the folder directly inside the .plugins dir of IDA 
    
    On linux & mac 
    ```bash
-   cookiecutter gh:HexRaysSA/ida-plugin-template -o $HOME/.idapro/plugins
+   pipx run cookiecutter gh:HexRaysSA/ida-plugin-template -o $HOME/.idapro/plugins
    ```
 
    On windows  
    ```bash
-   cookiecutter gh:HexRaysSA/ida-plugin-template -o "%APPDATA%\Hex-Rays\IDA Pro\plugins"
+   pipx run cookiecutter gh:HexRaysSA/ida-plugin-template -o "%APPDATA%\Hex-Rays\IDA Pro\plugins"
    ```
 
 2. **Fill in the prompted information:**
